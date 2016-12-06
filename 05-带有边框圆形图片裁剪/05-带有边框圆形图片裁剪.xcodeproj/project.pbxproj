@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		700192831DD008AB00AA5659 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 700192821DD008AB00AA5659 /* main.m */; };
+		700192861DD008AB00AA5659 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 700192851DD008AB00AA5659 /* AppDelegate.m */; };
+		700192891DD008AB00AA5659 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700192881DD008AB00AA5659 /* ViewController.m */; };
+		7001928C1DD008AB00AA5659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7001928A1DD008AB00AA5659 /* Main.storyboard */; };
+		7001928E1DD008AB00AA5659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7001928D1DD008AB00AA5659 /* Assets.xcassets */; };
+		700192911DD008AB00AA5659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7001928F1DD008AB00AA5659 /* LaunchScreen.storyboard */; };
+		70CDB0281DD025ED0013882D /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CDB0271DD025ED0013882D /* UIImage+image.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7001927E1DD008AB00AA5659 /* 05-带有边框圆形图片裁剪.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05-带有边框圆形图片裁剪.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		700192821DD008AB00AA5659 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		700192841DD008AB00AA5659 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		700192851DD008AB00AA5659 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		700192871DD008AB00AA5659 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		700192881DD008AB00AA5659 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7001928B1DD008AB00AA5659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7001928D1DD008AB00AA5659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		700192901DD008AB00AA5659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		700192921DD008AB00AA5659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70CDB0261DD025ED0013882D /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		70CDB0271DD025ED0013882D /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7001927B1DD008AB00AA5659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		700192751DD008AB00AA5659 = {
+			isa = PBXGroup;
+			children = (
+				700192801DD008AB00AA5659 /* 05-带有边框圆形图片裁剪 */,
+				7001927F1DD008AB00AA5659 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7001927F1DD008AB00AA5659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7001927E1DD008AB00AA5659 /* 05-带有边框圆形图片裁剪.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		700192801DD008AB00AA5659 /* 05-带有边框圆形图片裁剪 */ = {
+			isa = PBXGroup;
+			children = (
+				700192841DD008AB00AA5659 /* AppDelegate.h */,
+				700192851DD008AB00AA5659 /* AppDelegate.m */,
+				700192871DD008AB00AA5659 /* ViewController.h */,
+				700192881DD008AB00AA5659 /* ViewController.m */,
+				70CDB0261DD025ED0013882D /* UIImage+image.h */,
+				70CDB0271DD025ED0013882D /* UIImage+image.m */,
+				7001928A1DD008AB00AA5659 /* Main.storyboard */,
+				7001928D1DD008AB00AA5659 /* Assets.xcassets */,
+				7001928F1DD008AB00AA5659 /* LaunchScreen.storyboard */,
+				700192921DD008AB00AA5659 /* Info.plist */,
+				700192811DD008AB00AA5659 /* Supporting Files */,
+			);
+			path = "05-带有边框圆形图片裁剪";
+			sourceTree = "<group>";
+		};
+		700192811DD008AB00AA5659 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				700192821DD008AB00AA5659 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7001927D1DD008AB00AA5659 /* 05-带有边框圆形图片裁剪 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700192951DD008AB00AA5659 /* Build configuration list for PBXNativeTarget "05-带有边框圆形图片裁剪" */;
+			buildPhases = (
+				7001927A1DD008AB00AA5659 /* Sources */,
+				7001927B1DD008AB00AA5659 /* Frameworks */,
+				7001927C1DD008AB00AA5659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-带有边框圆形图片裁剪";
+			productName = "05-带有边框圆形图片裁剪";
+			productReference = 7001927E1DD008AB00AA5659 /* 05-带有边框圆形图片裁剪.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		700192761DD008AB00AA5659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiaomage;
+				TargetAttributes = {
+					7001927D1DD008AB00AA5659 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 700192791DD008AB00AA5659 /* Build configuration list for PBXProject "05-带有边框圆形图片裁剪" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 700192751DD008AB00AA5659;
+			productRefGroup = 7001927F1DD008AB00AA5659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7001927D1DD008AB00AA5659 /* 05-带有边框圆形图片裁剪 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7001927C1DD008AB00AA5659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700192911DD008AB00AA5659 /* LaunchScreen.storyboard in Resources */,
+				7001928E1DD008AB00AA5659 /* Assets.xcassets in Resources */,
+				7001928C1DD008AB00AA5659 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7001927A1DD008AB00AA5659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700192891DD008AB00AA5659 /* ViewController.m in Sources */,
+				70CDB0281DD025ED0013882D /* UIImage+image.m in Sources */,
+				700192861DD008AB00AA5659 /* AppDelegate.m in Sources */,
+				700192831DD008AB00AA5659 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7001928A1DD008AB00AA5659 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7001928B1DD008AB00AA5659 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7001928F1DD008AB00AA5659 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				700192901DD008AB00AA5659 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		700192931DD008AB00AA5659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		700192941DD008AB00AA5659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		700192961DD008AB00AA5659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "05-带有边框圆形图片裁剪/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		700192971DD008AB00AA5659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "05-带有边框圆形图片裁剪/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		700192791DD008AB00AA5659 /* Build configuration list for PBXProject "05-带有边框圆形图片裁剪" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700192931DD008AB00AA5659 /* Debug */,
+				700192941DD008AB00AA5659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700192951DD008AB00AA5659 /* Build configuration list for PBXNativeTarget "05-带有边框圆形图片裁剪" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700192961DD008AB00AA5659 /* Debug */,
+				700192971DD008AB00AA5659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 700192761DD008AB00AA5659 /* Project object */;
+}
